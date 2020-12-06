@@ -5,6 +5,4 @@ def func(mul1, mul2):
             nums += num
     print(nums)
 
-mul1 =  (int(input('Enter minutes:')))
-mul2 =  (int(input('Enter minutes:')))
-func(mul1, mul2)
+func(3, 5)

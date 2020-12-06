@@ -3,6 +3,5 @@ def func(minutes):
     minutes = minutes % 60
     hrs = int(hrs)
     print(f'{hrs} hours {minutes} minutes')
-
-minutes =  (int(input('Enter minutes:')))   
-func(minutes)
+  
+func(71)
