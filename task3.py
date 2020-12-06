@@ -6,6 +6,4 @@ def func(num1, num2):
     else:
         return False
 
-num1 = int(input('Enter number:'))
-num2 = int(input('Enter another number:'))
-func(num1, num2)          
+func(63, 3)          

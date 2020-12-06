@@ -2,11 +2,11 @@ def func(num1, num2):
     if num1 == 3 or num2 == 3:
         numb = num1 + num2
         if '3' in str(numb):
-            print(True) 
+            return True 
         else:
-            print(False)
+            return False
+    else:
+        return False     
 
-num1 = int(input('Enter number:'))
-num2 = int(input('Enter another number:'))
-func(num1, num2)        
+func(35, 3)        
 
