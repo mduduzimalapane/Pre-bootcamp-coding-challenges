@@ -1,4 +1,4 @@
-def func(num1, num2):
+def sum_of(num1, num2):
     if num1 == 3 or num2 == 3:
         numb = num1 + num2
         if '3' in str(numb):
@@ -8,5 +8,5 @@ def func(num1, num2):
     else:
         return False     
 
-func(35, 3)        
+sum_of(35, 3)        
 
