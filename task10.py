@@ -3,5 +3,4 @@ def vowels(string):
         if i in string:
             print(i)
 
-string =  input('Enter something:')
-vowels(string)
+vowels('hello')
