@@ -5,7 +5,7 @@ def hours_and_minutes(minutes):
     if hrs > 1 and minutes > 1:
         print(f'{hrs} hours, {minutes} minutes')
     elif hrs > 1 and minutes == 1:
-        print(f'{hrs} hours, {minute} minute')
+        print(f'{hrs} hours, {minutes} minute')
     elif hrs == 1 and minutes > 1:
         print(f'{hrs} hour, {minutes} minutes')    
     elif hrs == 1 and minutes == 1:
@@ -13,4 +13,4 @@ def hours_and_minutes(minutes):
     else:     
         print(f'{hrs} hours, {minutes} minutes')     
 
-hours_and_minutes(0)
+hours_and_minutes(61)
