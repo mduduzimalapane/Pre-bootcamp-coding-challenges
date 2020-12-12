@@ -1,6 +1,8 @@
 def vowels(string):
-    for i in 'aeiouAEIOU':
-        if i in string:
+    vowels = []
+    for i in string:
+        if i in 'aeiouAEIOU':
             print(i)
+            
 
-vowels('hello')
+vowels('here')
