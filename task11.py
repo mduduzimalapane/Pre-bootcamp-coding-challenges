@@ -1,4 +1,4 @@
-def common_characters(str1='resolve', str2='relaxation'):
+def common_characters(str1, str2):
     str1 = set(str1)
     str2 = set(str2)
     common = []
@@ -7,4 +7,4 @@ def common_characters(str1='resolve', str2='relaxation'):
             common.append(char)
     print('Common letters:', ', '.join(common))
 
-common_characters()
+common_characters('house', 'computer')
